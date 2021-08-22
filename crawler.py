@@ -60,16 +60,19 @@ class FindJobs:
 			office = jobs[job].find_element_by_class_name('job-search-card__location').text
 			link = jobs[job].find_element_by_tag_name('a').get_attribute('href')
 
-			time.sleep(2)
 			jobs[job].find_element_by_tag_name('a').click()
+			time.sleep(2)
 			detail = self.wd.find_element_by_xpath("//div[@class='description__text description__text--rich']").text
+			time.sleep(1)
 			# handle description not show
 			while len(detail) < 2:
 				try:
 					jobs[job-1].find_element_by_tag_name('a').click()
 					time.sleep(3)
 					jobs[job].find_element_by_tag_name('a').click()
+					time.sleep(1)
 					detail = self.wd.find_element_by_xpath("//div[@class='description__text description__text--rich']").text
+					time.sleep(1)
 				except:
 					pass
 					
