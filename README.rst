@@ -14,4 +14,7 @@ place `Chrome WebDriver <https://chromedriver.chromium.org/downloads>`_ in the s
   
   wd = webdriver.Chrome('chromedriver.exe')
   
+Sample
+#######
+.. image:: https://raw.githubusercontent.com/pandasTong/LinkedIn-Jobs-Scraping/main/Sample.PNG
 
