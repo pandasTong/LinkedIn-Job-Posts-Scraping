@@ -1,5 +1,5 @@
 *****
-	 LinkedIn Jobs Scraping
+	 LinkedIn Jobs Scraping (w/o Login)
 *****
 
 Set Up
