@@ -95,7 +95,7 @@ class FindJobs:
 		self.posts()
 
 if __name__ == '__main__':
-	keyword = "'business analyst' and 'sql'"
+	keyword = "'data analyst' and 'machine learning'"
 	location = "Dallas-Fort Worth Metroplex"
 	FindJobs(keyword, location).run()
 	
