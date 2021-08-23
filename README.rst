@@ -1,5 +1,5 @@
 *****
-	 LinkedIn Jobs Scraping (w/o Login)
+	 LinkedIn Jobs Scraping Without Login
 *****
 
 Set Up
@@ -10,7 +10,6 @@ place `Chrome WebDriver <https://chromedriver.chromium.org/downloads>`_ in the s
 .. code-block:: python
 
   from selenium import webdriver
-  from selenium.webdriver.common.keys import Keys
   
   wd = webdriver.Chrome('chromedriver.exe')
   
