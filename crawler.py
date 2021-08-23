@@ -88,7 +88,8 @@ class FindJobs:
 			'Detail': job_detail})
 		print('Number of Jobs Crawled: ' + str(len(job_data)))
 		# job_data.to_excel('LinkedIn {} Job {}.xlsx'.format(keyword, location), index = False)
-		job_data.to_csv('LinkedIn {} Job {}.xlsx'.format(keyword, location), index = False)
+		job_data.to_csv('LinkedIn {} Job {}.csv'.format(keyword, location), index = False)
+		
 	def run(self):
 		self.wd.maximize_window()
 		self.get_url()
