@@ -15,7 +15,7 @@ class FindJobs:
 		# get job search url
 		# keyword(s) and location needed
 		# post time pre-set to last week
-		template = 'https://www.linkedin.com/jobs/search?keywords={}&location={}&geoId=90000031&sortBy=R&f_TPR=r604800&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0'
+		template = 'https://www.linkedin.com/jobs/search?keywords={}&location={}&sortBy=R&f_TPR=r604800&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0'
 		url = template.format(keyword, location)
 		self.wd.get(url)
 
