@@ -1,5 +1,5 @@
 <h1 align = 'center'>
-    LinkedIn Jobs Scraping Without Login
+    LinkedIn Job Posts Scraping Without Login
     </h1>
 
 ## About
