@@ -20,7 +20,7 @@ class FindJobs:
 		self.wd.get(url)
 
 	def autoscroll(self):
-		no_of_jobs = self.wd.find_element_by_css_selector('h1>span').get_attribute('innerText')
+		no_of_jobs = self.wd.find_element_by_css_selector('div>h1>span').get_attribute('innerText')
 		no = []
 		# keep numbers only
 		for i in no_of_jobs:
